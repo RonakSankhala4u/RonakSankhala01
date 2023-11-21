@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RonakSankhala.Web", "RonakSankhala.Web\RonakSankhala.Web.csproj", "{0D5EE963-D990-44FD-BEC1-A628B23DD7BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RonakSankhala.Web", "RonakSankhala.Web\RonakSankhala.Web.csproj", "{0D5EE963-D990-44FD-BEC1-A628B23DD7BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RonakSankhala.Entities", "RonakSankhala.Entities\RonakSankhala.Entities.csproj", "{FDEE247B-5A44-4C42-AEDF-F940F6B29716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RonakSankhala.Repositories", "RonakSankhala.Repositories\RonakSankhala.Repositories.csproj", "{8A4A840F-7520-4DBF-8A01-F8124CDC9720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RonakSankhala.UI", "RonakSankhala.UI\RonakSankhala.UI.csproj", "{18D77714-83BF-4918-B7DD-DCBB9FF555C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{0D5EE963-D990-44FD-BEC1-A628B23DD7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D5EE963-D990-44FD-BEC1-A628B23DD7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D5EE963-D990-44FD-BEC1-A628B23DD7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDEE247B-5A44-4C42-AEDF-F940F6B29716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEE247B-5A44-4C42-AEDF-F940F6B29716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEE247B-5A44-4C42-AEDF-F940F6B29716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEE247B-5A44-4C42-AEDF-F940F6B29716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4A840F-7520-4DBF-8A01-F8124CDC9720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4A840F-7520-4DBF-8A01-F8124CDC9720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4A840F-7520-4DBF-8A01-F8124CDC9720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4A840F-7520-4DBF-8A01-F8124CDC9720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D77714-83BF-4918-B7DD-DCBB9FF555C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D77714-83BF-4918-B7DD-DCBB9FF555C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D77714-83BF-4918-B7DD-DCBB9FF555C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D77714-83BF-4918-B7DD-DCBB9FF555C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -39,5 +39,28 @@ namespace RonakSankhala.Web.Controllers
             var people = _context.Peoples.Find(id);
             return View(people);
         }
+
+        [HttpPost]
+        public IActionResult Edit(People people)
+        {
+            
+            _context.Peoples.Update(people);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var people = _context.Peoples.Find(id);
+            return View(people);
+        }
+        [HttpPost]
+        public IActionResult Delete(People people)
+        {
+            _context.Peoples.Remove(people);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
