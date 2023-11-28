@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using RonakSankhala.Entities;
 using RonakSankhala.Repositories.Interfaces;
+using RonakSankhala.UI.ViewModels.StateViewModels;
 
 namespace RonakSankhala.UI.Controllers
 {
@@ -19,7 +20,13 @@ namespace RonakSankhala.UI.Controllers
         public IActionResult Index()
         {
             var states = _stateRepo.GetAll();
-            return View(states);
+            var vm = new List<StateViewModel>();
+            foreach (var state in states)
+            {
+                vm.Add(new StateViewModel { Id = state.Id, StateName= state.Name, CountryName = state.Country.Name});
+            }
+            
+            return View(vm);
         }
         [HttpGet]
         public IActionResult Create()

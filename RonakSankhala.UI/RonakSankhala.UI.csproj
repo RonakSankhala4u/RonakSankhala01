@@ -18,4 +18,8 @@
     <ProjectReference Include="..\RonakSankhala.Repositories\RonakSankhala.Repositories.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ViewModels\CityViewModels\" />
+  </ItemGroup>
+
 </Project>
